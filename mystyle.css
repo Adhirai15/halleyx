@@ -1,0 +1,74 @@
+.button {
+  background-color: #44d05c; /* Light Green Background */
+  color: white;
+  padding: 5px 38px; 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; /* Smaller font size */
+  margin: 4px 2px; /* Reduced margin */
+  cursor: pointer;
+  border: 1px solid #44d05c; /* Light Green Border */
+}
+
+.button4 {
+  background-color: #ffffff;
+  color: black;
+  padding: 5px 38px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 1px solid #56f070 !important; /* Light Green Border with !important */
+}
+
+
+/* Left Block - Black */
+.left-block {
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  padding: 20px;
+}
+
+/* Right Block - White */
+.right-block {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 250px;
+  width: calc(100% - 250px);
+  height: 100%;
+  padding: 20px;
+}
+
+/* Designer Elements */
+.designer-element {
+  font-family: 'Ariel', sans-serif;
+  font-size: 15px;
+  border: 1px #ccc;
+  padding: 1px;
+  margin: 17px;
+  -webkit-user-drag: element;
+  cursor: grab;
+}
+
+/* Publish and Preview Links */
+.publish-preview {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 18px;
+}
+
+.space-between {
+  margin-left: 5px; /* Adjust the value for your desired spacing */
+}
+
+.grab {cursor: -webkit-grab; cursor: grab;}
